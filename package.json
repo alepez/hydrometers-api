@@ -1,0 +1,24 @@
+{
+  "name": "hydrometers-api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "hydrometers-fetcher": "^0.0.1",
+    "express": "^4.12.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alessandro-pezzato/hydrometers-api.git"
+  },
+  "author": "Alessandro Pezzato <alessandro.pezzato@gmail.com> (http://pezzato.net/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alessandro-pezzato/hydrometers-api/issues"
+  },
+  "homepage": "https://github.com/alessandro-pezzato/hydrometers-api"
+}

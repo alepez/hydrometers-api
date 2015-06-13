@@ -9,7 +9,7 @@ app.get('/hydrometers', function (req, res) {
 });
 
 app.get('/hydrometers/:river/:station', function (req, res) {
-  var sensorId = req.params.river + '/' + req.params.station;
+  var sensorId = (req.params.river + '/' + req.params.station).toLowerCase();
   hf.getSensor(sensorId).then(function (data) {
     res.json(data);
   });
